@@ -1,0 +1,11 @@
+name: ShadowRPG
+version: '${project.version}'
+main: me.shadowdev.shadowrpg.ShadowRPG
+api-version: 1.17
+authors: [ ShadowDev_ ]
+description: RPG Plugin with lots of custom mobs and custom weapons
+commands:
+  rpgspawn:
+    description: Spawn a custom rpg mob
+    permission: ShadowRPG.mobs.spawn
+
